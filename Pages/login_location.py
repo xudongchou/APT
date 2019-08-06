@@ -10,3 +10,6 @@
 """
 每个页面一个py文件，每个文件里定义所需元素定位的变量
 """
+username_location = ""
+password_location = ""
+login_location = ""

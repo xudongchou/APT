@@ -20,10 +20,10 @@ import os
 from datetime import datetime
 from appium.webdriver.mobilecommand import MobileCommand
 from Helper.Logs import logger
+from Helper.APPdriver import AppDriver
 class AppLocation(object):
     def __init__(self,driver=None):
-        self.driver = AppDriver.appDrvier(self,cps=ANDROID_BASE_CAPS,executor=EXECUTOR)
-
+        self.driver = driver
     def android_spiner(self, xpath1, xpath2, inputstring):
         driver = self.driver
         spiner = driver.find_element_by_xpath(xpath1)

@@ -27,7 +27,6 @@ class Appium_Init:
         res = load_caps(self.device_serial)
         executor = executer
         self.driver = AppDriver.appDrvier(cps=res, executor=executor)
-
     def stop(self):
         self.driver.quit()
         os.system("adb disconnect " + self.remote_connect_url)
