@@ -1,0 +1,6 @@
+REALME-X:
+    platformName: Android
+    platformVersion: 9.0.0
+    deviceName: f7c6941a
+    appPackage: com.creditease.vip_xzbx
+    appActivity: com.creditease.vip_xzbx.ui.activity.StartActivity

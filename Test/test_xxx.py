@@ -7,8 +7,7 @@
 @month:六月
 
 """
-from wda import Client, Session, Selector, WDAElementNotDisappearError
-from Helper.helper import load_caps, load_config
+
 from client.android.stf_api.stf_api import StfDevice
 from unittest import TestCase
 from Helper.appium_init import Appium_Init
