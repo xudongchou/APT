@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d11f5857-1530-4aae-90be-e533e558f2f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Conf/devices.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Operate/example.py" afterPath="$PROJECT_DIR$/Operate/example.py" />
-      <change beforePath="$PROJECT_DIR$/Pages/pagexxx.py" afterPath="$PROJECT_DIR$/Pages/pagexxx.py" />
-      <change beforePath="$PROJECT_DIR$/Test/test_xxx.py" afterPath="$PROJECT_DIR$/Test/test_xxx.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -422,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563445006578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增devices.yml">
+      <created>1565072880167</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565072880167</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -473,7 +476,8 @@
     <MESSAGE value="新增切换上下文方法，修改settings里面配置" />
     <MESSAGE value="新增ios和安卓专用定位方法" />
     <MESSAGE value="增加stf api appium 初始化方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加stf api appium 初始化方法" />
+    <MESSAGE value="新增devices.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增devices.yml" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
